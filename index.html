@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Club | MANIT</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="myFunction()">
+    <!-- loading div -->
+
+    <div id="loading">
+        <p class="message">
+            Taking you to the Robotics Club MANIT website
+        </p>
+    </div>
+
+
+
+    <!-- home section -->
+    <section class="home-section">
+        <!-- navigation div -->
+        <div class="nav-div">
+            <div class="left">
+                <img src="https://media.licdn.com/dms/image/C4D0BAQHBiVIEIUQ2_w/company-logo_200_200/0/1675676260241?e=1691625600&v=beta&t=89UFICfGCziP_Zu-utoyPKg9WrxE9Jto7_mkLZpUkJU"
+                    alt="logo-image" class="logo">
+            </div>
+
+            <div class="right">
+                <ul class="nav-menu">
+                    <li><a href="#home-page" class="home">home</a></li>
+                    <li><a href="#about-visit" class="about">about</a></li>
+                    <li><a href="#gallery-visit" class="gallery">gallery</a></li>
+                    <li><a href="#contact-visit" class="contact">contact us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="title-robotic-club" id="home-page">
+            <p>
+                ROBOTICS CLUB
+            </p>
+            <p class="manit">
+                MANIT
+            </p>
+        </div>
+
+        <div class="recruit-title">
+            <p>
+                WE ARE RECRUITING
+            </p>
+        </div>
+
+        <div class="register-link">
+            <a href="form.html" target="_blank">
+                Register Now
+            </a>
+        </div>
+    </section>
+
+
+    <!-- section about page -->
+    <section class="about-page">
+
+        <div class="about-title" id="about-visit">
+            <p>ABOUT</p>
+        </div>
+
+        <div class="data-about">
+            <p>
+                The Robotics Club is a community of students who derive pleasure in creating robots that may even be
+                potent to work without human intervention. Each member of this family is provided insight into
+                mechanical, basic electronic, monetary and informatory aid besides the indispensable guidance of
+                experienced members. Club will support and foster interest in various aspects related to robotics in
+                particular, mechanical design through workshops and projects. Robo-geeks will be provided a workspace,
+                tools and other amenities to let their imagination loose. Competitions of various levels will be held
+                under this club which will develop your interest in Robotics. This club will definitely give you what
+                students look for and expect from a technological institute.
+            </p>
+        </div>
+    </section>
+
+    <!-- gallery section -->
+
+    <section class="gallery-section" >
+        <div class="gallery-title" id="gallery-visit">
+            <p>GALLERY</p>
+        </div>
+
+        <div class="picture1">
+            <img src="/images/robocon_2018.jpg" alt="robocon_2018">
+        </div>
+
+        <div class="picture2">
+            <img src="/images/technosearch_2018.jpg" alt="robocon_2018">
+        </div>
+
+        <div class="picture3">
+            <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                <source src="/images/drone.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+<!-- contact section -->
+<section class="gallery-section" >
+
+    <div class="contact-title" id="contact-visit">
+        <p>CONTACT</p>
+    </div>
+    <p class="conctact-message">
+        Feel Free To Drop Us A Line.
+    </p>
+
+    <form action="mailto:gakashshuklag@gmail.com" method="get" enctype="text/plain" class="contact-form form-box">
+        <input type="text" size="50" class="form-control" placeholder="Your Name" required>
+        <input type="email" size="50" class="form-control" placeholder="Enter Email" required>
+        <textarea name="comment" id="comment" rows="6"  class="form-control" placeholder="Write Something" required></textarea>
+     
+        <input type="submit" value="Send Message" class="form-control">
+    </form>
+
+
+</section>
+
+
+
+
+
+
+
+    <!-- script for loading -->
+    <script>
+        var loader = document.getElementById("loading");
+
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
+    </script>
+
+    <!-- to increase load time -->
+    <iframe class="frame" width="560" height="315" src="https://www.youtube.com/embed/Vz7R7CxbuK8"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+        <iframe class="frame" width="560" height="315" src="https://www.youtube.com/embed/Vz7R7CxbuK8"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+        <iframe class="frame" width="560" height="315" src="https://www.youtube.com/embed/Vz7R7CxbuK8"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      
+       
+        
+        
+
+</body>
+
+</html>

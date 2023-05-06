@@ -1,0 +1,124 @@
+
+body{
+    background-image: url(/images/gallery.jpg);
+    height: 890px;
+}
+
+
+
+.title-robotic-club p.club {
+    display: block;
+    position: relative;
+    left: 10%;
+    opacity: 1;
+    transform: translateY(-10px);
+    letter-spacing: 15px;
+    font-weight: 300;
+    font-size: 60px;
+    text-transform: uppercase;
+    transform: translateY(0px);
+    transition: 0.2s ease-out;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Zilla Slab', serif;
+}
+
+.title-robotic-club p.manit {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    opacity: 1;
+    transform: translateY(-10px);
+    letter-spacing: 15px;
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+    transform: translateY(0px);
+    transition: 0.2s ease-out;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Zilla Slab', serif;
+}
+
+
+
+.contact-form {
+    display: block;
+    margin-top: 0em;
+}
+
+.form-control{
+    border: 2px solid rgb(108, 117, 125);
+    background: rgba(33, 37, 41, 0.2);
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 50%;
+    height:10px;
+    padding: 9px 8px;
+    margin: 30px auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+
+
+}
+
+textarea.form-control{
+    height: auto;
+}
+
+textarea{
+    overflow: auto;
+    resize: vertical;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+}
+
+.form-control[type="submit"] {
+    padding-bottom: 27px;
+    line-height: 20px;
+    cursor: pointer;
+    appearance: button;
+
+}
+
+input[type="submit" i] {
+
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+
+
+}
+
+input{
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    -webkit-rtl-ordering: logical;
+
+}
+
+.form-box{
+    position: relative;
+    top: 40px;
+}
