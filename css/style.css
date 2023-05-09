@@ -22,7 +22,7 @@ body {
 }
 
 .home-section {
-    background-image: url(/images/bg-robot.jpg);
+    background-image: url(images/bg-robot.jpg);
     background-size: 1200px;
     height: 620px;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body {
 
 
 #loading {
-    background: #fff url(/images/Gear.gif) no-repeat center center;
+    background: #fff url(images/Gear.gif) no-repeat center center;
     background-size: 5%;
     width: 100%;
     height: 600px;
@@ -205,7 +205,7 @@ body {
 }
 
 .about-page {
-    background-image: url(/images/about.jpg);
+    background-image: url(images/about.jpg);
     height: 600px;
 }
 
@@ -244,7 +244,7 @@ body {
 }
 
 .gallery-section {
-    background-image: url(/images/gallery.jpg);
+    background-image: url(images/gallery.jpg);
     height: 650px;
 
 }
@@ -310,7 +310,7 @@ body {
 }
 
 .contact-section {
-    background-image: url(/images/gallery.jpg);
+    background-image: url(images/gallery.jpg);
     height: 600px;
 
 }
